@@ -15,4 +15,4 @@ Than create and run the container:
 ```console
 docker run -it -p 7171:7171 krony/server:latest
 ```
-Note that binding port **7171** is mandatory, otherwise the server will not be able to communicate with the client. The parameter **-it** is required to send custom messages from the server.
+>**Note:** binding port *7171* is mandatory, otherwise the server will not be able to communicate with the client. The parameter **-it** is required to send custom messages from the server.
