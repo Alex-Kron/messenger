@@ -21,7 +21,8 @@ The server is able to send custom messages to its subscribers. To send a message
 ```console
 shell:>send -m "<Some message>"
 ```
->**Note:** If the shell does not appear, press *Enter* several times
+>**Note:** If the shell does not appear, press *Enter* several times 
+
 ![ServerSend](/images/ServerSend.gif "Sending a message from the server")
 
 The client will receive this message if it is connected to the server.
@@ -31,5 +32,6 @@ The html page can be launched using any browser.
 >**Note:** The browser must be allowed to execute JS scripts.
 
 To start chatting, you need to switch the toggle to the **Connected** state. 
-If the message *"SUCCESSFUL SUBSCRIBE"* was received from the server, then the connection to the server was successfully established and you can start chatting.
+If the message *"SUCCESSFUL SUBSCRIBE"* was received from the server, then the connection to the server was successfully established and you can start chatting. 
+
 ![ClientSend](/images/ClientSend.gif "Sending a message from the Client")
