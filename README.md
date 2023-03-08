@@ -8,6 +8,6 @@ This application consists of two main parts:
 ### Get start
 The server application has been compiled into a *Docker image* so that it can be run anywhere. The image is available at the link [Docker Hub](https://hub.docker.com/repository/docker/krony/server/general "Server Image")  
 First of all download the image from docker hub:
-'''docker
+'''console
 docker pull krony/server:latest
 '''
