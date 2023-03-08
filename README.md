@@ -27,5 +27,6 @@ The client will receive this message if it is connected to the server.
 ## Client application
 ### Get start
 The html page can be launched using any browser. 
->**Note:** The browser must be allowed to execute JS scripts.  
+>**Note:** The browser must be allowed to execute JS scripts.
+
 To start chatting, you need to switch the toggle to the "Connected" state. If the message *"SUCCESSFUL SUBSCRIBE"* was received from the server, then the connection to the server was successfully established and you can start chatting.
