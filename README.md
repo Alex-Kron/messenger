@@ -1,4 +1,4 @@
-# CLient-server STOMP messenger
+# Client-server STOMP messenger
 This application consists of two main parts:
 * Server
   >Server application implemented in *Java* using a *Spring framework* and implements message forwarding to the client via a websocket connection via *Streaming Text Oriented Messaging Protocol (STOMP)*.
@@ -10,4 +10,8 @@ The server application has been compiled into a *Docker image* so that it can be
 First of all download the image from docker hub:
 ```console
 docker pull krony/server:latest
+```
+Than create and run the container:
+```console
+docker run -it -p 7171:7171 krony/server:latest
 ```
