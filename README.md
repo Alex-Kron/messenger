@@ -25,7 +25,8 @@ shell:>send -m "<Some message>"
 
 ![ServerSend](/images/ServerSend.gif "Sending a message from the server")
 
-The client will receive this message if it is connected to the server.
+>**Note:** The client will receive this message if it is connected to the server. 
+
 ## Client application
 ### Get start
 The html page can be launched using any browser. 
